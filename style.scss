@@ -4930,9 +4930,9 @@ table {
    
 }
 }
-@media (max-width: 475px){
+@media (max-width: 370px){
          .banner{
-    height: 140vh;
+    height: 90vh;
     .nav{
         display: flex;
         justify-content: space-between;
@@ -4970,17 +4970,17 @@ table {
        align-items: center;
        text-align: center;
        h1{
-        font-size: 90;
+        font-size: 80;
         color: rgb(197, 166, 64);
-        margin-top: 100;
-        letter-spacing: 10;
+        margin-top: 50;
+        letter-spacing: 5;
         font-weight: bolder;
         
        }
        .coffe-beans{
-        margin-top: -150;
+        margin-top: -100;
         img{
-            width: 300px;
+            width: 350px;
             
         }
        }
@@ -4994,7 +4994,8 @@ table {
     .never{
         color: rgb(37, 1, 1);
         margin-left: 30;
-        margin-top: -35;
+        margin-top: -15;
+        text-align: center;
          h4{
             letter-spacing: 0;
             font-weight: bold;
@@ -5017,6 +5018,7 @@ table {
     
     .joy{
         margin-top: 80;
+        text-align: center;
             h4{
                 font-weight: bold;
                 color: rgb(37, 1, 1);
@@ -5049,8 +5051,11 @@ table {
         padding: 10;
         margin-left: -10;
         margin-top: 20;
+        text-align: center;
         h4{
             font-size: 20;
+            text-align: start;
+            margin-left: 15;
         }
         h3{
             font-size: 20;
@@ -5058,7 +5063,7 @@ table {
         input{
             margin-top: 20;
             height: 40;
-            width: 350;
+            width: 320;
             margin-left: 0;
         }
        .btns{
@@ -5095,13 +5100,14 @@ table {
     }
 }
 .Since{
-        margin-top: 180;
+        margin-top: 190%;
         background-color: rgba(245, 239, 239, 0.678);
         .row{
              margin-left: 0;
             .tea{
                 width: 100%;
                 .sin{
+                    display: none;
                     width: 100;
                     position: relative;
                      top: 150;
@@ -5113,7 +5119,7 @@ table {
                     
                 }
                 img{
-                height: 700;
+                height: 400;
                 width: 100%;
                 margin-top: 10;
                 margin-left: -10;
@@ -5123,7 +5129,7 @@ table {
             }
             .discover{
                 padding-left: 15;
-                margin-top: 700;
+                margin-top: 410;
                 text-align: center;
                 h4{
                     font-weight: bold;
@@ -5147,6 +5153,7 @@ table {
                         }
                 }
                 .cups{
+                    display: none;
                     text-align: center;
                     margin-top: 10;
                     h4{
@@ -5174,7 +5181,7 @@ table {
         }
 
         .three{
-            display: flex;
+            display: none;
             justify-content: space-around;
             margin-top: 30;
             img{
@@ -5211,7 +5218,7 @@ table {
 }
 .tee{
      background-color: rgba(245, 239, 239, 0.678);
-     height: 80vh;
+     height: 160vh;
   .imgz{
     display: flex;
     flex-direction: column;
@@ -5233,7 +5240,7 @@ table {
              bottom: 120;
              justify-content: center;
              width: 180;
-             margin-left: 150;
+             margin-left: 100;
              a{
                 text-decoration: none;
                 color: #813A1A;
@@ -5253,7 +5260,7 @@ table {
 .Milk{
      background-color: rgba(245, 239, 239, 0.678);
     color: #3E2012;
-    height: 140vh;
+    height: 250vh;
     display: grid;
     grid-template-columns: auto;
     justify-content: space-around;
@@ -5301,7 +5308,7 @@ table {
                 bottom: 380;
                 height: 50;
                 width: 250;
-                margin-left: 100px;
+                margin-left: 50px;
                 a{
                     text-decoration: none;
                     color: #3E2012;
@@ -5316,6 +5323,7 @@ table {
         }
       
         .others{
+            display: none;
            img{
          width: 100%;
          height: 276.7;
@@ -5351,7 +5359,7 @@ table {
     background-image: url(imgs/Coffe-tea.png);
     background-position: center;
     background-size: cover;
-    height: 285vh;
+    height: 140vh;
     margin-top: 30;
 
     .overlay{
@@ -5397,6 +5405,7 @@ table {
        
 
         .bond-img{
+            display: none;
             .Bondile{
                 img{
                     width: 100%;
@@ -5408,6 +5417,7 @@ table {
             }
         }
         .bond{
+            display: none;
             text-align: center;
             background-color: #EDC588;
             opacity: 60%;
@@ -5438,6 +5448,7 @@ table {
            
         }
         .nor{
+            display: none;
             .Noreen{
               margin-left: 0;
                 img{
@@ -5450,6 +5461,7 @@ table {
            
         
         .Arno{
+            display: none;
             text-align: center;
             background-color: #EDC588;
             opacity: 60%;
@@ -5479,10 +5491,12 @@ table {
         }
 
         .SHA{
+            display: none;
             margin-left: 0;
             width:485;
            }
         .arnold{
+            display: none;
            img{
             margin-left: 0;
             margin-top: -2;
@@ -5588,16 +5602,17 @@ table {
              margin-top: -10;
             .links{
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: space-around;
             height: 400;
         
             ul{
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 justify-content: space-between;
-                height: 200;
+                height: 100;
+                width: 100%;
+                margin-left: -30;
                 a{
                     text-decoration: none;
                     color: white;
@@ -5619,7 +5634,7 @@ table {
                 }
                 .icon{
                     display: grid;
-                    grid-template-columns: auto auto;
+                    grid-template-columns: auto auto auto auto;
                     gap: 20px;     
                     margin-bottom: 20;  
                             

@@ -4151,9 +4151,9 @@ table {
     margin-bottom: 20;
   }
 }
-@media (max-width: 475px) {
+@media (max-width: 370px) {
   .banner {
-    height: 140vh;
+    height: 90vh;
   }
   .banner .nav {
     display: flex;
@@ -4187,17 +4187,17 @@ table {
     text-align: center;
   }
   .banner .center h1 {
-    font-size: 90;
+    font-size: 80;
     color: rgb(197, 166, 64);
-    margin-top: 100;
-    letter-spacing: 10;
+    margin-top: 50;
+    letter-spacing: 5;
     font-weight: bolder;
   }
   .banner .center .coffe-beans {
-    margin-top: -150;
+    margin-top: -100;
   }
   .banner .center .coffe-beans img {
-    width: 300px;
+    width: 350px;
   }
   .banner .center .coffe-cup {
     margin-top: -300;
@@ -4208,7 +4208,8 @@ table {
   .banner .never {
     color: rgb(37, 1, 1);
     margin-left: 30;
-    margin-top: -35;
+    margin-top: -15;
+    text-align: center;
   }
   .banner .never h4 {
     letter-spacing: 0;
@@ -4228,6 +4229,7 @@ table {
   }
   .banner .row .joy {
     margin-top: 80;
+    text-align: center;
   }
   .banner .row .joy h4 {
     font-weight: bold;
@@ -4256,9 +4258,12 @@ table {
     padding: 10;
     margin-left: -10;
     margin-top: 20;
+    text-align: center;
   }
   .banner .row .sec-form h4 {
     font-size: 20;
+    text-align: start;
+    margin-left: 15;
   }
   .banner .row .sec-form h3 {
     font-size: 20;
@@ -4266,7 +4271,7 @@ table {
   .banner .row .sec-form input {
     margin-top: 20;
     height: 40;
-    width: 350;
+    width: 320;
     margin-left: 0;
   }
   .banner .row .sec-form .btns {
@@ -4294,7 +4299,7 @@ table {
     font-size: 14;
   }
   .Since {
-    margin-top: 180;
+    margin-top: 190%;
     background-color: rgba(245, 239, 239, 0.678);
   }
   .Since .row {
@@ -4304,6 +4309,7 @@ table {
     width: 100%;
   }
   .Since .row .tea .sin {
+    display: none;
     width: 100;
     position: relative;
     top: 150;
@@ -4313,7 +4319,7 @@ table {
     background-color: rgba(255, 255, 255, 0.692);
   }
   .Since .row .tea img {
-    height: 700;
+    height: 400;
     width: 100%;
     margin-top: 10;
     margin-left: -10;
@@ -4323,7 +4329,7 @@ table {
   }
   .Since .row .discover {
     padding-left: 15;
-    margin-top: 700;
+    margin-top: 410;
     text-align: center;
   }
   .Since .row .discover h4 {
@@ -4346,6 +4352,7 @@ table {
     margin-top: 40;
   }
   .Since .row .discover .cups {
+    display: none;
     text-align: center;
     margin-top: 10;
   }
@@ -4368,7 +4375,7 @@ table {
     color: rgb(46, 10, 10);
   }
   .Since .three {
-    display: flex;
+    display: none;
     justify-content: space-around;
     margin-top: 30;
   }
@@ -4399,7 +4406,7 @@ table {
   }
   .tee {
     background-color: rgba(245, 239, 239, 0.678);
-    height: 80vh;
+    height: 160vh;
   }
   .tee .imgz {
     display: flex;
@@ -4424,7 +4431,7 @@ table {
     bottom: 120;
     justify-content: center;
     width: 180;
-    margin-left: 150;
+    margin-left: 100;
   }
   .tee .imgz .in .t a {
     text-decoration: none;
@@ -4438,7 +4445,7 @@ table {
   .Milk {
     background-color: rgba(245, 239, 239, 0.678);
     color: #3E2012;
-    height: 140vh;
+    height: 250vh;
     display: grid;
     grid-template-columns: auto;
     justify-content: space-around;
@@ -4480,7 +4487,7 @@ table {
     bottom: 380;
     height: 50;
     width: 250;
-    margin-left: 100px;
+    margin-left: 50px;
   }
   .team .row .catering .overlay .ctext a {
     text-decoration: none;
@@ -4490,6 +4497,9 @@ table {
   .team .row .catering .overlay .ctext a h4 {
     font-weight: bold;
     padding-top: 5;
+  }
+  .team .row .others {
+    display: none;
   }
   .team .row .others img {
     width: 100%;
@@ -4522,7 +4532,7 @@ table {
     background-image: url(imgs/Coffe-tea.png);
     background-position: center;
     background-size: cover;
-    height: 285vh;
+    height: 140vh;
     margin-top: 30;
   }
   .Testimonial .overlay {
@@ -4556,6 +4566,9 @@ table {
     display: flex;
     justify-content: space-around;
   }
+  .Testimonial .row .bond-img {
+    display: none;
+  }
   .Testimonial .row .bond-img .Bondile img {
     width: 100%;
     height: 300px;
@@ -4564,6 +4577,7 @@ table {
        object-fit: contain;
   }
   .Testimonial .row .bond {
+    display: none;
     text-align: center;
     background-color: #EDC588;
     opacity: 60%;
@@ -4590,6 +4604,9 @@ table {
     display: flex;
     justify-content: space-around;
   }
+  .Testimonial .row .nor {
+    display: none;
+  }
   .Testimonial .row .nor .Noreen {
     margin-left: 0;
   }
@@ -4600,6 +4617,7 @@ table {
        object-fit: contain;
   }
   .Testimonial .row .Arno {
+    display: none;
     text-align: center;
     background-color: #EDC588;
     opacity: 60%;
@@ -4625,8 +4643,12 @@ table {
     justify-content: space-around;
   }
   .Testimonial .row .SHA {
+    display: none;
     margin-left: 0;
     width: 485;
+  }
+  .Testimonial .row .arnold {
+    display: none;
   }
   .Testimonial .row .arnold img {
     margin-left: 0;
@@ -4714,16 +4736,17 @@ table {
   }
   .Footer .foot .Quick .links {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     height: 400;
   }
   .Footer .foot .Quick .links ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    height: 200;
+    height: 100;
+    width: 100%;
+    margin-left: -30;
   }
   .Footer .foot .Quick .links ul a {
     text-decoration: none;
@@ -4743,7 +4766,7 @@ table {
   }
   .Footer .foot .socials .heading .icon {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
     gap: 20px;
     margin-bottom: 20;
   }
